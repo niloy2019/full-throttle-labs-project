@@ -5,7 +5,7 @@ import User from './components/User';
 
 function App() {
   return (
-    
+    //-----------------------   Creating Routes  --------------------------//
     <Router>
           <Switch>
             <Route path="/" exact component={UserList} />

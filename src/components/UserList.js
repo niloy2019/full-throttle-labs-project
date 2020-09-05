@@ -12,7 +12,7 @@ const UserList = () => {
     const [users,setuUsers] = useState([])
 
     useEffect(() => {
-
+            //Fetching data from API
             axios.get(URL)
             .then( (res) => {
                  console.log(res.data);
@@ -26,6 +26,7 @@ const UserList = () => {
 
     return (
         <div>
+                {/*---------------------------------   Priinting all the user details   -----------------------------------*/}
                 <h1 className={style.h}>User List</h1>
                 {users.map(user => (
                     <div className={style.recipes} key={user.id}>
@@ -36,8 +37,8 @@ const UserList = () => {
                                         <p>Name : {user.real_name}</p>
                                         <p>TimeZone : {user.tz}</p>
                                 </div>
-                    </Link>
-                        </div>
+                         </Link>
+                   </div>
                 ))}
         </div>
     )

@@ -8,10 +8,13 @@ import img from './assets/profile2.png'
 
 const User = (props) => {
     
+    //Getting the User info from props
     const user =JSON.parse(props.location.state.user)
+
     const [date, setDate] = useState(new Date('2020/03/16'))
     let count=0
 
+    //Method to change the date in state when user changes it
     const  onChange = date => {
         setDate(date)  
     } 
@@ -24,26 +27,29 @@ const User = (props) => {
     let year2 = Number(dateArray[3])
     
     return (
-        <div>
+        <div>   
+                {/*--------- Back Button to go to Home Page -----------*/}
                 <Link  className={style.li} to="/">
                             <i className="fas fa-arrow-left"></i>
                 </Link>
         
                 <div className={style.recipe2}  >  
                         
+                        {/*---------------   User Information ------------*/}
                         <img src={img} alt={img} className={style.img2} />
                         <div className={style.letter}>ID : {user.id}</div>
                         <div className={style.letter}>Name : {user.real_name}</div>
                         <div className={style.letter}>TimeZone : {user.tz}</div>
 
                         
-
+                        {/*--------------------------------   Calender to pick a Date   -----------------------------*/}
                         <div className={style.date} >
                             Choose Date : <DatePicker selected={date} onChange={onChange}className={style.datePicker} />
                         </div>
                         
 
-                        {user.activity_periods.map(activity => {
+                        {//--------------------- -----------      When Activity Found      ----------------------------//
+                         user.activity_periods.map(activity => {
                                     let start = activity.start_time.split(' ')
                                     let end   = activity.end_time.split(' ')
                                     //Fetching the day,month and year from the start and end time of activity Array 
@@ -79,7 +85,8 @@ const User = (props) => {
                                     }
                         })}
                     
-                    { count==0 ? <table className="table table-dark" >
+                    { //-----------------------------    When No Activity Found    --------------------------------------//
+                        count==0 ? <table className="table table-dark" >
                                         <thead>
                                                 <tr>
                                                     <th scope="col"> </th>
