@@ -3,6 +3,7 @@ import axios from 'axios'
 import User from './User'
 import style from './style.module.css'
 import { Link } from 'react-router-dom'
+import img from './assets/profile.jpg'
 
 const URL = 'https://my-json-server.typicode.com/niloy2019/json-server/members'
 
@@ -25,17 +26,18 @@ const UserList = () => {
 
     return (
         <div>
-            <h1>User List</h1>
+                <h1 className={style.h}>User List</h1>
                 {users.map(user => (
-                    <Link to={{ pathname:'/activity-details', state:{user : JSON.stringify(user)} }}   key={user.id} >
-                        <div className={style.recipes}>
+                    <div className={style.recipes} key={user.id}>
+                        <Link to={{ pathname:'/activity-details', state:{user : JSON.stringify(user)} }} className={style.link}>
                                 <div className={style.recipe} >
-                                        <h3>ID : {user.id}</h3>
-                                        <h3>Name : {user.real_name}</h3>
-                                        <h3>TimeZone : {user.tz}</h3>
+                                        <img src={img} alt={img} className={style.img} />
+                                        <p>ID : {user.id}</p>
+                                        <p>Name : {user.real_name}</p>
+                                        <p>TimeZone : {user.tz}</p>
                                 </div>
-                        </div>
                     </Link>
+                        </div>
                 ))}
         </div>
     )

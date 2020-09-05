@@ -5,12 +5,24 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background: blanchedalmond;
+    background: cornflowerblue;
     color: darkslategray;
     align-items: center;
-    min-width: 50%;
     padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
 
+}
+
+.recipe:hover{
+    background-color:cyan;
+    text-decoration: none;
+}
+
+.letter{
+    font-size: 20px;
+    font-weight: 500;
 }
 .recipes{
     display: flex;
@@ -18,25 +30,57 @@
     flex-wrap: wrap;
 }
 
-
-
-
-
-
-.dogDetails{
-    background-color: rgb(40, 204, 150);
+.img2{
+    width: 25%;
+    padding: 20px;
 }
 
-.div{
+.h{
     text-align: center;
-    padding-top: 0px;
-    color:#FFFFFF;
+    color: white;
+    padding: 20px 0px 20px 0px;
+}
+
+.img{
+    border-radius: 50%;
+    width: 50%;
+    padding-bottom:20px ;
+}
+
+.date{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.link:hover{
+    text-decoration: none;
+    color: blueviolet;
 }
 
 
-.t{
-    color: chocolate;
-    font-size: 20px;
+@media screen and (max-width: 360px){
+    .recipe{
+        font-size: 18px;
+    }
+    .recipe2{
+        height: 85vh;
+        width: 53vh;
+        font-size: 13px;
+    }
+    
+    .letter{
+        font-size: 18px;
+    }
+    .date{
+        font-size: 18px;
+    }
+    .img2{
+        width: 50%;
+    }
+    .datePicker{
+        width: 125px;
+    }
 }
 
 .recipe2{
@@ -46,163 +90,22 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    /* background: blanchedalmond; */
     background-color: rgb(137, 214, 189);
     align-items: center;
     min-width: 40%;
     padding: 20px;
 }
 
-.image{
-    border-radius: 50%;
-    width: 40vh;
-    height: 40vh;
-}
-
-.image2{
-    /* border-radius: 50%; */
-    width: 75vh;
-    height: 75vh;
-}
-
-
-
-
-@media screen and (max-width: 400px){
-    .image2{
-        border-radius: 50%;
-        width: 50vh;
-        height: 50vh;
-    }
-    .recipe2{
-        height: 85vh;
-        width: 53vh;
-    }
-}
-
-@media screen and (max-width: 980px) and (min-width:400px){
-    .image2{
-        border-radius: 50%;
-        width: 55vh;
-        min-width: 50%;
-        height: 55vh;
-    }
-}
-
-.link:hover{
-    text-decoration: none;
-    color: blueviolet;
-}
-
-.recipe:hover{
-    background-color:white;
-}
-
-.td{
-    width: 50%;
-    align-items: center;
-    text-align: center;
-}
-
-.btn{
-    display: inline-block;
-    background-color: rgb(17, 136, 100);
-    color: white;
-    padding: 0.35em 1.2em;
-    border: 0.1em solid #FFFFFF;
-    margin: 0 0.3em 0.3em 0;
-    border-radius: 0.12em;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: 'Roboto',sans-serif;
-    font-weight: 300;
-    text-align: center;
-}
-
-
-
-
-
-.btn2{
-    background-color: rgb(192, 100, 15);
-    color: white;
-    display: inline-block;
-    padding: 0.35em 1.2em;
-    border: 0.1em solid #FFFFFF;
-    margin: 0 0.3em 0.3em 0;
-    border-radius: 0.12em;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: 'Roboto',sans-serif;
-    font-weight: 300;
-    text-align: center;
-}
-
 .li{
     text-decoration: none;
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    position: absolute;
     color: #FFFFFF;
 }
-.li2:hover{
-    text-decoration: none;
-}
+
 .li:hover{
     color: #FFFFFF;
     text-decoration: none;
-}
-
-.change{
-    padding-top: 20px;
-}
-
-.header{
-    width: 100%;
-    text-align: center;
-}
-.recipe3{
-    border-radius: 10px;
-    box-shadow: 0px 5px 20px rgb(71, 71, 71);
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    background: darkslategray;
-    color: white;
-    align-items: center;
-    min-width: 40%;
-    padding: 10px;
-
-}
-
-.topcorner{
-    position:absolute;
-   top:0;
-   right:0;
-}
-
-.image3{
-    border-radius: 50%;
-    width: 10vh;
-    height: 10vh;
-}
-
-@media screen and (max-width: 600px){
-    /* .topcorner{
-        display: none;
-    } */
-    .image3{
-        border-radius: 50%;
-        width: 5vh;
-        height: 5vh;
-    }
-    .tx{
-        font-size: 12px;
-    }
-    .recipe3{
-        padding: 10px;
-        border-radius: 30%;
-    }
-}
-
-.n{
-    width: 95px;
 }
