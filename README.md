@@ -17,7 +17,7 @@ users from a mock API server.
 active on that day, with an option to view all the periods of activity for different days using a calendar.
 User can choose any date using the Calender.
     
-   Mock Json Server is hosted here  : https://my-json-server.typicode.com/niloy2019/json-server/
+   Mock Json Server is hosted here  : https://my-json-server.typicode.com/niloy2019/json-server/members
      
    React Date Picker is used to make the calender
   
@@ -27,7 +27,7 @@ User can choose any date using the Calender.
   https://full-throttle-labs-project.herokuapp.com/
 
 ## Mock Json-server
-  https://my-json-server.typicode.com/niloy2019/json-server/
+  https://my-json-server.typicode.com/niloy2019/json-server/members
 
 ## Sample Images(Desktop Mode)
 ### Home Page
