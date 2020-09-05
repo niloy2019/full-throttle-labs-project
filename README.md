@@ -30,30 +30,30 @@ User can choose any date using the Calender.
   https://my-json-server.typicode.com/niloy2019/json-server/members
 
 ## Sample Images(Desktop Mode)
-### Home Page
+### 1. Home Page
 ![](https://github.com/niloy2019/full-throttle-labs-project/blob/master/Project%20Images/Desktop1.PNG)
 
-### User Activity Page(Activity Found)
+### 2. User Activity Page(Activity Found)
 ![](https://github.com/niloy2019/full-throttle-labs-project/blob/master/Project%20Images/Desktop2.PNG)
 
-### User Activity Page(Selecting Date using Calender)
+### 3. User Activity Page(Selecting Date using Calender)
 ![](https://github.com/niloy2019/full-throttle-labs-project/blob/master/Project%20Images/Desktop3.PNG)
 
-### User Activity Page(No Activity)
+### 4. User Activity Page(No Activity)
 ![](https://github.com/niloy2019/full-throttle-labs-project/blob/master/Project%20Images/Desktop4.PNG)
 
 
 ## Sample Images(Desktop Mode)
-### Home Page
+### 5. Home Page
 ![](https://github.com/niloy2019/full-throttle-labs-project/blob/master/Project%20Images/Mobile1.jpg)
 
-### User Activity Page(Activity Found)
+### 6. User Activity Page(Activity Found)
 ![](https://github.com/niloy2019/full-throttle-labs-project/blob/master/Project%20Images/Mobile2.jpg)
 
-### User Activity Page(Selecting Date using Calender)
+### 7. User Activity Page(Selecting Date using Calender)
 ![](https://github.com/niloy2019/full-throttle-labs-project/blob/master/Project%20Images/Mobile3.jpg)
 
-### User Activity Page(No Activity)
+### 8. User Activity Page(No Activity)
 ![](https://github.com/niloy2019/full-throttle-labs-project/blob/master/Project%20Images/Mobile4.jpg)
 
 
