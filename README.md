@@ -29,7 +29,7 @@ User can choose any date using the Calender.
 ## Mock Json-server
   https://my-json-server.typicode.com/niloy2019/json-server/members
 
-## Sample Images(Desktop Mode)
+# Sample Images(Desktop Mode)
 ### 1. Home Page
 ![](https://github.com/niloy2019/full-throttle-labs-project/blob/master/Project%20Images/Desktop1.PNG)
 
@@ -43,7 +43,7 @@ User can choose any date using the Calender.
 ![](https://github.com/niloy2019/full-throttle-labs-project/blob/master/Project%20Images/Desktop4.PNG)
 
 
-## Sample Images(Desktop Mode)
+# Sample Images(Mobile Mode)
 ### 5. Home Page
 ![](https://github.com/niloy2019/full-throttle-labs-project/blob/master/Project%20Images/Mobile1.jpg)
 
